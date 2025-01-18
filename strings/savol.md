@@ -8,6 +8,42 @@ Bu hujjat LeetCode uslubidagi stringlarga oid 100 ta masala va ularning qisqacha
 <br>
 
 Reverse String: Berilgan stringni teskari aylantiring. Masalan, "hello" → "olleh".
+<hr>
+go-da
+```go
+package main
+
+import "fmt"
+
+func revers_string(str string)string{
+  runes = []runes(str)
+  i, j = 0, len(runes)-1
+  for i<j {
+    runes[i], runes[j] = runes[j], runes[i]
+    i+=1
+    j-=1
+  }
+  return runes
+
+}
+
+func main() {
+  reversed := revers_string("Hello, Go")
+  fmt.Println(reversed)
+}
+```
+pythond-da
+<hr>
+```python
+def revers_string(string: str)->str:
+  lists = list(string)
+  i, j = 0, len(lists)
+  while i<j:
+    lists[i], lists[j] = lists[j], lists[i]
+    i+=1
+    j-=1
+  return "".join(lists)
+```
 <br>
 
 Palindrome Checker: String palindrome ekanligini tekshiring. Masalan, "racecar" palindrome hisoblanadi.
