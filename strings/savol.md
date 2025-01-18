@@ -8,8 +8,8 @@ Bu hujjat LeetCode uslubidagi stringlarga oid 100 ta masala va ularning qisqacha
 <br>
 
 Reverse String: Berilgan stringni teskari aylantiring. Masalan, "hello" → "olleh".
-<hr>
 go-da
+<hr>
 
 ```go
 package main
