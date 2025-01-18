@@ -7,7 +7,7 @@ Bu hujjat LeetCode uslubidagi stringlarga oid 100 ta masala va ularning qisqacha
 1-10: Boshlang'ich String Masalalari
 <br>
 
-Reverse String: Berilgan stringni teskari aylantiring. Masalan, "hello" → "olleh".
+Reverse String: Berilgan stringni teskari aylantiring. Masalan, "hello" → "olleh".<br>
 go-da
 <hr>
 
