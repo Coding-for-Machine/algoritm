@@ -10,6 +10,7 @@ Bu hujjat LeetCode uslubidagi stringlarga oid 100 ta masala va ularning qisqacha
 Reverse String: Berilgan stringni teskari aylantiring. Masalan, "hello" → "olleh".
 <hr>
 go-da
+
 ```go
 package main
 
@@ -34,6 +35,7 @@ func main() {
 ```
 pythond-da
 <hr>
+
 ```python
 def revers_string(string: str)->str:
   lists = list(string)
