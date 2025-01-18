@@ -39,7 +39,7 @@ pythond-da
 ```python
 def revers_string(string: str)->str:
   lists = list(string)
-  i, j = 0, len(lists)
+  i, j = 0, len(lists)-1
   while i<j:
     lists[i], lists[j] = lists[j], lists[i]
     i+=1
