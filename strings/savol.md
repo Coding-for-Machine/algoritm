@@ -63,6 +63,37 @@ First Unique Character: Stringda birinchi marta uchraydigan noyob belgini toping
 <br>
 
 Anagram Check: Ikkita string bir-birining anagrami ekanligini aniqlang.
+
+(1)
+
+```python
+def anagram(s: str, t: str)->str:
+  s1 = {}
+  s2 = {}
+  for i in s:
+    s1[i]=s.get(i, 0)+1
+  for i in t:
+    s2[i]= s2.get(i, 0)+1
+  return s1==s2
+```
+(2)
+
+```python
+from callections import Counter
+
+def anagram(s: str, t: str)->str:
+  s1 = Counter(s)
+  s2 = Counter(t)
+  return s1==s2
+```
+
+(3)
+
+```python
+def anagram(s: str, t: str)->str:
+  return reversed(s1)==reversed(s2)
+```
+
 <br>
 
 Count Vowels: Stringdagi unli harflar sonini hisoblang.
