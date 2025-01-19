@@ -50,7 +50,15 @@ def revers_string(string: str)->str:
 
 Palindrome Checker: String palindrome ekanligini tekshiring. Masalan, "racecar" palindrome hisoblanadi.
 <br>
-
+```python
+def palindrom_str(string: str)->str:
+  i, j = 0, len(string)-1
+  while i<j:
+    if string[i]!=string[j]:
+      return False
+      i, j = i+1, j-1
+  return True
+```
 First Unique Character: Stringda birinchi marta uchraydigan noyob belgini toping.
 <br>
 
